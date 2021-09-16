@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;600;700;900&family=Playfair+Display:wght@400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  color: #2f2e2e;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  min-height: 165px;
+}
+
+.logo-link {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: calc(50 / 42 * 100) px;
+  margin: 47px auto 91px 95px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 67px 100px 97px 390px;
+}
+
+.menu-item {
+  list-style-type: none;
+  font-family: Inter;
+  margin: 0 0 0 106px;
+}
+
+.menu-item:first-child {
+  font-weight: 700;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin: 0 100px 0 64px;
+}
