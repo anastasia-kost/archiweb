@@ -1,22 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@400;600;700;900&family=Playfair+Display:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Inter:wght@200;400;600;700;900&family=Playfair+Display:wght@400;700;900&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+  color: #2f2e2e;
 }
 
 .container {
-  max-width: 1440px;
-  color: #2f2e2e;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0 auto;
 }
 
+/* HEADER */
 .header {
-  display: flex;
-  min-height: 165px;
+  justify-content: space-between;
 }
 
 .logo-link {
@@ -25,21 +26,19 @@ body {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-size: 42px;
-  line-height: calc(50 / 42 * 100) px;
-  margin: 47px auto 91px 95px;
+  line-height: calc(50 / 42 * 100%);
 }
 
 .navbar-menu {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 67px 100px 97px 390px;
+  margin-left: auto;
 }
 
 .menu-item {
+  font-size: 20px;
   list-style-type: none;
   font-family: Inter;
-  margin: 0 0 0 106px;
+  margin: 63px 0 63px 106px;
 }
 
 .menu-item:first-child {
@@ -53,5 +52,85 @@ body {
 
 .search-icon {
   cursor: pointer;
-  margin: 0 100px 0 64px;
+  margin-left: 65px;
+}
+
+/* Main Block */
+
+.main-page {
+  position: relative;
+  height: 740px;
+}
+
+.background-slider {
+  position: absolute;
+  right: 0;
+}
+
+.main-text-block {
+  position: absolute;
+  max-width: 690px;
+  padding: 140px 155px 140px 100px;
+  z-index: 10;
+  background-color: #f4f6f5;
+  opacity: 0.9;
+  text-align: left;
+  margin-top: 95px;
+}
+
+.title {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 51px;
+  line-height: calc(69 / 51 * 100%);
+  margin: 0;
+}
+
+.main-text {
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: calc(39 / 32 * 100%);
+  margin-top: 10px;
+}
+
+.services-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #254d4d33;
+  background-opacity: 0.2;
+  margin: 0 auto;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-title {
+  text-align: center;
+  margin: 16px 0 45px 0;
+}
+
+.service-info {
+  text-align: center;
+}
+
+.service-image {
+  border-radius: 50%;
+}
+
+.service-info-title {
+  font-size: 27px;
+  font-weight: 900;
+  margin: 0;
+  line-height: calc(36 / 27 * 100%);
+}
+
+.service-text {
+  font-family: "Playfair Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(21 / 16 * 100%);
+  margin-top: 10px;
 }
