@@ -94,6 +94,8 @@ body {
   margin-top: 10px;
 }
 
+/* Services */
+
 .services-block {
   display: flex;
   flex-direction: column;
@@ -105,6 +107,7 @@ body {
 .service-container {
   display: flex;
   justify-content: space-around;
+  margin: 0;
 }
 
 .service-title {
@@ -133,4 +136,30 @@ body {
   font-weight: 400;
   line-height: calc(21 / 16 * 100%);
   margin-top: 10px;
+}
+
+/* ABOUT */
+
+.about-block {
+  margin-top: 75px;
+}
+
+.about-info {
+  margin-left: 87px;
+}
+
+.about-text {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 31px;
+  line-height: calc(41 / 31 * 100%);
+}
+
+.about-link {
+  text-decoration: none;
+  color: #2f2e2e;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: calc(29 / 24 * 100%);
 }
