@@ -117,6 +117,7 @@ body {
 
 .service-info {
   text-align: center;
+  margin-bottom: 49px;
 }
 
 .service-image {
@@ -162,4 +163,37 @@ body {
   font-weight: 600;
   font-size: 24px;
   line-height: calc(29 / 24 * 100%);
+}
+
+/* Projects block */
+
+.projects-block {
+  margin-top: 39px;
+}
+
+.projects-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projects-grid {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: space-between;
+  column-gap: 104px;
+  row-gap: 70px;
+  margin-top: 20px;
+}
+
+.projects-text {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: calc(24 / 16 * 100%);
+  margin-top: 13px;
+  padding: 0;
 }
