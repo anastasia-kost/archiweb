@@ -303,3 +303,12 @@ body {
 .footer-img {
   cursor: pointer;
 }
+
+/* SOCIALS */
+.socials {
+  padding-bottom: 53px;
+}
+
+.social-icon {
+  margin-right: 36px;
+}
